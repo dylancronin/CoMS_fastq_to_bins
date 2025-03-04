@@ -99,7 +99,7 @@ Note: Also check out [MultiQC](https://multiqc.info/) for generating summary rep
 
 ## Assembly
 
-As of 2021, two of the more popular tools for assembly are MetaSPAdes and MEGAHIT. Either tool should suit your needs. Generally speaking, MetaSPAdes has shown great performance for assembly, but it is also VERY compute intensive, meaning one will likely need a large amount of memory, cores/threads, and CPU hours. MEGAHIT, on the other hand, performs well but is less compute intensive. 
+Two of the more popular tools for assembly are MetaSPAdes and MEGAHIT. Either tool should suit your needs. Generally speaking, MetaSPAdes has shown great performance for assembly, but it is also VERY compute intensive, meaning one will likely need a large amount of memory, cores/threads, and CPU hours. MEGAHIT, on the other hand, performs well but is less compute intensive. 
 
 For this workflow, I have chosen megahit due to the compute needs associated with MetaSPAdes.
 
