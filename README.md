@@ -302,6 +302,7 @@ conda activate aviary
 ```
 See https://github.com/rhysnewell/aviary for installing databases as well.
 
+We need to first make sure our readsets aren't interleaved. They are by default when downloading the data. reformat.sh does the trick for this.
 ```
 conda activate bbmap-38.51
 reformat.sh in=RH_S001__insert_270.fq out1=RH_S001__insert_270.1.fq.gz out2=RH_S001__insert_270.2.fq.gz
