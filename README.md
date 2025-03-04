@@ -3,8 +3,8 @@ Creating bins from reads
 
 # From Fastq to Bins
 ## The Data
-Old link: (https://edwards.sdsu.edu/research/cami-challenge-datasets/)
-Updated link: (https://cami-challenge.org/datasets/)
+[Old link](https://edwards.sdsu.edu/research/cami-challenge-datasets/)
+[Updated link](https://cami-challenge.org/datasets/)
 Specifically targeting the "High Complexity" fastq files for all 5 samples.
 
 ## Read Quality Control
