@@ -3,6 +3,54 @@ Creating bins from reads
 Original talk: https://tinyurl.com/ReadsToMags  
 Most recent set of [slides](https://github.com/dylancronin/CoMS_fastq_to_bins/blob/main/CoMS-20250304.pptx) for talk given on 03/04/25
 
+# Table of Contents
+
+1. [Introduction](#introduction)
+   - [Overview](#overview)  
+   - [Original Talk and Slides](#original-talk-and-slides)  
+
+2. [From Fastq to Bins](#from-fastq-to-bins)  
+   - [The Data](#the-data)  
+     - [CAMI Datasets](#cami-datasets)  
+
+3. [Read Quality Control](#read-quality-control)  
+   - [bbtools for Read QC and General Formatting](#bbtools-for-read-qc-and-general-formatting)  
+     - [Installation](#installation)  
+     - [Running bbduk](#running-bbduk)  
+     - [Output Interpretation](#output-interpretation)  
+   - [Read Quality Visualization](#read-quality-visualization)  
+     - [FastQC Installation](#fastqc-installation)  
+     - [Running FastQC](#running-fastqc)  
+     - [MultiQC for Summary Reports](#multiqc-for-summary-reports)  
+
+4. [Assembly](#assembly)  
+   - [Choosing an Assembly Tool](#choosing-an-assembly-tool)  
+   - [MEGAHIT Assembly](#megahit-assembly)  
+     - [Installation](#installation)  
+     - [Running MEGAHIT](#running-megahit)  
+     - [Output Files](#output-files)  
+
+5. [Binning](#binning)  
+   - [Principles of Binning](#principles-of-binning)  
+   - [Read Mapping](#read-mapping)  
+
+6. [Initial Binning Methods](#initial-binning-methods)  
+   - [MetaBAT2](#metabat2)  
+   - [MaxBin2](#maxbin2)  
+   - [CONCOCT](#concoct)  
+
+7. [Ensemble Binning (Combining Multiple Binners)](#ensemble-binning-combining-multiple-binners)  
+
+8. [Bin Refinement](#bin-refinement)  
+   - [CheckM for Bin Quality Control](#checkm-for-bin-quality-control)  
+   - [RefineM for Further Cleaning](#refinem-for-further-cleaning)  
+
+9. [Simpler Workflow - Aviary](#simpler-workflow---aviary)  
+   - [Installation](#installation)  
+   - [Setting Up Read Files](#setting-up-read-files)  
+   - [Running Aviary](#running-aviary)  
+
+
 # From Fastq to Bins
 ## The Data
 [CAMI Datasets](https://cami-challenge.org/datasets/)
