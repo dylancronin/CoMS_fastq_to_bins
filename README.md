@@ -1,6 +1,7 @@
 # CoMS_fastq_to_bins
 Creating bins from reads  
-Original talk: https://tinyurl.com/ReadsToMags
+Original talk: https://tinyurl.com/ReadsToMags  
+Most recent set of [slides](https://github.com/dylancronin/CoMS_fastq_to_bins/blob/main/CoMS-20250304.pptx) for talk given on 03/04/25
 
 # From Fastq to Bins
 ## The Data
