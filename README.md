@@ -8,8 +8,7 @@
    - Original talk: https://tinyurl.com/ReadsToMags  
    - Most recent set of [slides](https://github.com/dylancronin/CoMS_fastq_to_bins/blob/main/CoMS-20250304.pptx) for talk given on 03/04/25
 
-2. [From Fastq to Bins](#from-fastq-to-bins)  
-   - [The Data](#the-data)  
+2. [The Data](#the-data)  
      - [CAMI Datasets](#cami-datasets)  
 
 3. [Read Quality Control](#read-quality-control)  
@@ -50,7 +49,6 @@
    - [Running Aviary](#running-aviary)  
 
 
-# From Fastq to Bins
 ## The Data
 [CAMI Datasets](https://cami-challenge.org/datasets/)
 Specifically targeting the "High Complexity" fastq files for all 5 samples.
