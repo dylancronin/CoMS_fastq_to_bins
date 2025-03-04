@@ -1,5 +1,5 @@
 # CoMS_fastq_to_bins
-Creating bins from reads
+Creating bins from reads  
 Original talk: https://tinyurl.com/ReadsToMags
 
 # From Fastq to Bins
