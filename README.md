@@ -294,3 +294,33 @@ metawrap_bin_refinement/metawrap_70_10_bins/ \
 scaffold_stats_outliers/outliers.tsv \
 metawrap_bin_refinement/metawrap_70_10_bins_refinem_filtered/
 ```
+
+# Simpler Workflow - Aviary (https://github.com/rhysnewell/aviary)
+```
+conda create -n aviary -c bioconda aviary
+conda activate aviary
+```
+See https://github.com/rhysnewell/aviary for installing databases as well.
+
+```
+conda activate bbmap-38.51
+reformat.sh in=RH_S001__insert_270.fq out1=RH_S001__insert_270.1.fq.gz out2=RH_S001__insert_270.2.fq.gz
+reformat.sh in=RH_S002__insert_270.fq out1=RH_S002__insert_270.1.fq.gz out2=RH_S002__insert_270.2.fq.gz
+reformat.sh in=RH_S003__insert_270.fq out1=RH_S003__insert_270.1.fq.gz out2=RH_S003__insert_270.2.fq.gz
+reformat.sh in=RH_S004__insert_270.fq out1=RH_S004__insert_270.1.fq.gz out2=RH_S004__insert_270.2.fq.gz
+reformat.sh in=RH_S005__insert_270.fq out1=RH_S005__insert_270.1.fq.gz out2=RH_S005__insert_270.2.fq.gz
+```
+
+Then just point aviary to wherever these read files are stored.
+```
+mkdir reads/
+mv *.1.fq.gz reads/
+mv *.2.fq.gz reads/
+```
+```
+conda activate aviary
+aviary recover -1 reads/*.1.fq.gz -2 reads/*.2.fq.gz --output aviary_output/ --max_threads 12 --n_cores 24
+```
+And that's it! Assuming you have your databases set up correctly, you will have CheckM, GTDB, among other results.
+
+
