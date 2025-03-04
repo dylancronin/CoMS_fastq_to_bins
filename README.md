@@ -19,7 +19,6 @@
      - [MultiQC for Summary Reports](#multiqc-for-summary-reports)  
 
 3. [Assembly](#assembly)  
-   - [Choosing an Assembly Tool](#choosing-an-assembly-tool)  
    - [MEGAHIT Assembly](#megahit-assembly)  
      - [Installation](#installation)  
      - [Running MEGAHIT](#running-megahit)  
