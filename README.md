@@ -24,8 +24,7 @@
      - [Running MEGAHIT](#running-megahit)  
      - [Output Files](#output-files)  
 
-4. [Binning](#binning)  
-   - [Principles of Binning](#principles-of-binning)  
+4. [Binning](#binning)   
    - [Read Mapping](#read-mapping)  
 
 5. [Initial Binning Methods](#initial-binning-methods)  
