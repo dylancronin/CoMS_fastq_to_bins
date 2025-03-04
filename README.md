@@ -26,13 +26,10 @@
 
 4. [Binning](#binning)   
    - [Read Mapping](#read-mapping)  
-
-5. [Initial Binning Methods](###initial-binning-methods)  
    - [MetaBAT2](#metabat2)  
    - [MaxBin2](#maxbin2)  
    - [CONCOCT](#concoct)  
-
-6. [Ensemble Binning (Combining Multiple Binners)](#ensemble-binning-combining-multiple-binners)  
+   - [Ensemble Binning (Combining Multiple Binners)](#ensemble-binning-combining-multiple-binners)  
 
 7. [Bin Refinement](#bin-refinement)  
    - [CheckM for Bin Quality Control](#checkm-for-bin-quality-control)  
