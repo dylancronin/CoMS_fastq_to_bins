@@ -14,7 +14,7 @@ Reads that come back from sequencing runs are not perfect, so they typically req
 
 ### bbtools for read QC and general formatting
 
-JGI provides a set of scripts that can handle many different tasks you would want to perform on read files called bbtools https://jgi.doe.gov/data-and-tools/bbtools/. Read QC typically is performed through two tools [bbduk](https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/bbduk-guide/) and [trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic). Both tools work and can process your reads fairly quickly, but bbduk can work fairly faster, so that is what we will use today. 
+JGI provides a set of scripts that can handle many different tasks you would want to perform on read files called bbtools https://bitbucket.org/berkeleylab/jgi-bbtools/src/master/docs/guides/. Read QC typically is performed through two tools [bbduk](https://bitbucket.org/berkeleylab/jgi-bbtools/src/master/docs/guides/BBDukGuide.txt) and [trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic). Both tools work and can process your reads fairly quickly, but bbduk can work fairly faster, so that is what we will use today. 
 
 Installation through conda (other options available through the above links). Version 38.51 is used here, but newer versions are now available as well.
 ```
