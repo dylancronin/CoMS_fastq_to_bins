@@ -15,7 +15,7 @@
 
 5. [Bin Refinement](#bin-refinement)  
 
-6. [Simpler Workflow - Aviary](#simpler-workflow---aviary)  
+6. [Simpler Workflow - Aviary](#aviary)  
 
 
 ## The Data
@@ -310,7 +310,8 @@ scaffold_stats_outliers/outliers.tsv \
 metawrap_bin_refinement/metawrap_70_10_bins_refinem_filtered/
 ```
 
-# Simpler Workflow - Aviary (https://github.com/rhysnewell/aviary)
+# Aviary 
+(https://github.com/rhysnewell/aviary)
 ```
 conda create -n aviary -c bioconda aviary
 conda activate aviary
