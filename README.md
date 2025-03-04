@@ -10,10 +10,6 @@
 2. [Read Quality Control](#read-quality-control)  
 
 3. [Assembly](#assembly)  
-   - [MEGAHIT Assembly](#megahit-assembly)  
-     - [Installation](#installation)  
-     - [Running MEGAHIT](#running-megahit)  
-     - [Output Files](#output-files)  
 
 4. [Binning](#binning)   
 
