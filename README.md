@@ -140,7 +140,7 @@ Installation
 ```
 conda create --name=coverm-0.6.1
 conda activate coverm-0.6.1
-conda install -c bioconda coverm
+conda install -c bioconda coverm=0.6.1
 ```
 Read map every sample against the 1st  sample assembly
 ```
