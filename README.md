@@ -1,17 +1,14 @@
 # CoMS_fastq_to_bins
-
+- Creating bins from reads  
+- Original talk: https://tinyurl.com/ReadsToMags  
+- Most recent set of [slides](https://github.com/dylancronin/CoMS_fastq_to_bins/blob/main/CoMS-20250304.pptx) for talk given on 03/04/25
 
 # Table of Contents
 
-1. Introduction
-   - Creating bins from reads  
-   - Original talk: https://tinyurl.com/ReadsToMags  
-   - Most recent set of [slides](https://github.com/dylancronin/CoMS_fastq_to_bins/blob/main/CoMS-20250304.pptx) for talk given on 03/04/25
-
-2. [The Data](#the-data)  
+1. [The Data](#the-data)  
      - [CAMI Datasets](#cami-datasets)  
 
-3. [Read Quality Control](#read-quality-control)  
+2. [Read Quality Control](#read-quality-control)  
    - [bbtools for Read QC and General Formatting](#bbtools-for-read-qc-and-general-formatting)  
      - [Installation](#installation)  
      - [Running bbduk](#running-bbduk)  
@@ -21,29 +18,29 @@
      - [Running FastQC](#running-fastqc)  
      - [MultiQC for Summary Reports](#multiqc-for-summary-reports)  
 
-4. [Assembly](#assembly)  
+3. [Assembly](#assembly)  
    - [Choosing an Assembly Tool](#choosing-an-assembly-tool)  
    - [MEGAHIT Assembly](#megahit-assembly)  
      - [Installation](#installation)  
      - [Running MEGAHIT](#running-megahit)  
      - [Output Files](#output-files)  
 
-5. [Binning](#binning)  
+4. [Binning](#binning)  
    - [Principles of Binning](#principles-of-binning)  
    - [Read Mapping](#read-mapping)  
 
-6. [Initial Binning Methods](#initial-binning-methods)  
+5. [Initial Binning Methods](#initial-binning-methods)  
    - [MetaBAT2](#metabat2)  
    - [MaxBin2](#maxbin2)  
    - [CONCOCT](#concoct)  
 
-7. [Ensemble Binning (Combining Multiple Binners)](#ensemble-binning-combining-multiple-binners)  
+6. [Ensemble Binning (Combining Multiple Binners)](#ensemble-binning-combining-multiple-binners)  
 
-8. [Bin Refinement](#bin-refinement)  
+7. [Bin Refinement](#bin-refinement)  
    - [CheckM for Bin Quality Control](#checkm-for-bin-quality-control)  
    - [RefineM for Further Cleaning](#refinem-for-further-cleaning)  
 
-9. [Simpler Workflow - Aviary](#simpler-workflow---aviary)  
+8. [Simpler Workflow - Aviary](#simpler-workflow---aviary)  
    - [Installation](#installation)  
    - [Setting Up Read Files](#setting-up-read-files)  
    - [Running Aviary](#running-aviary)  
