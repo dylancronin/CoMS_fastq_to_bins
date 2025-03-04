@@ -27,7 +27,7 @@
 4. [Binning](#binning)   
    - [Read Mapping](#read-mapping)  
 
-5. [Initial Binning Methods](#initial-binning-methods)  
+5. [Initial Binning Methods](###initial-binning-methods)  
    - [MetaBAT2](#metabat2)  
    - [MaxBin2](#maxbin2)  
    - [CONCOCT](#concoct)  
