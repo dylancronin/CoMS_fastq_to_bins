@@ -6,17 +6,8 @@
 # Table of Contents
 
 1. [The Data](#the-data)  
-     - [CAMI Datasets](#cami-datasets)  
 
 2. [Read Quality Control](#read-quality-control)  
-   - [bbtools for Read QC and General Formatting](#bbtools-for-read-qc-and-general-formatting)  
-     - [Installation](#installation)  
-     - [Running bbduk](#running-bbduk)  
-     - [Output Interpretation](#output-interpretation)  
-   - [Read Quality Visualization](#read-quality-visualization)  
-     - [FastQC Installation](#fastqc-installation)  
-     - [Running FastQC](#running-fastqc)  
-     - [MultiQC for Summary Reports](#multiqc-for-summary-reports)  
 
 3. [Assembly](#assembly)  
    - [MEGAHIT Assembly](#megahit-assembly)  
@@ -25,20 +16,10 @@
      - [Output Files](#output-files)  
 
 4. [Binning](#binning)   
-   - [Read Mapping](#read-mapping)  
-   - [MetaBAT2](#metabat2)  
-   - [MaxBin2](#maxbin2)  
-   - [CONCOCT](#concoct)  
-   - [Ensemble Binning (Combining Multiple Binners)](#ensemble-binning-combining-multiple-binners)  
 
-7. [Bin Refinement](#bin-refinement)  
-   - [CheckM for Bin Quality Control](#checkm-for-bin-quality-control)  
-   - [RefineM for Further Cleaning](#refinem-for-further-cleaning)  
+5. [Bin Refinement](#bin-refinement)  
 
-8. [Simpler Workflow - Aviary](#simpler-workflow---aviary)  
-   - [Installation](#installation)  
-   - [Setting Up Read Files](#setting-up-read-files)  
-   - [Running Aviary](#running-aviary)  
+6. [Simpler Workflow - Aviary](#simpler-workflow---aviary)  
 
 
 ## The Data
